@@ -93,6 +93,8 @@ Note that if the repo is public, you can just use GitHub's mirroring feature.
 
 * Initial sync
 
+    $ git svn init -T https://ecesvn.uwaterloo.ca/courses/os499/scripts/trunk/
+    Using higher level of URL: https://ecesvn.uwaterloo.ca/courses/os499/scripts/trunk => https://ecesvn.uwaterloo.ca/courses/os499
     $ git svn fetch --authors-file=svn.authors
     $ git gc
 
