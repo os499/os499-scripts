@@ -56,9 +56,9 @@ Note that git used to be called git-core on older Debian-based distributions. Fo
 
     $ mkdir ~/svn/
     $ cd ~/svn/
-    $ svn co https://ecesvn.uwaterloo.ca/people/os499
+    $ svn co https://ecesvn.uwaterloo.ca/courses/os499
 
-NOTE: The SVN repository may some day move to [https://ecesvn.uwaterloo.ca/courses/os499][] .
+NOTE: The SVN repository was initially located at [https://ecesvn.uwaterloo.ca/people/os499][] .
 
 * Make the new "repository" (called scripts here); add a README file. (Markdown for illustration because that's what this file uses.)
 
