@@ -43,7 +43,7 @@ Creating a Repository
 
 On recent verisons of Ubuntu: (tested on 11.10 as of the time of writing)
 
-        $ sudo aptitude install subversion git git-svn
+    $ sudo aptitude install subversion git git-svn
 
 Note that git used to be called git-core on older Debian-based distributions. For other distributions, YMMV.
 
@@ -105,17 +105,17 @@ Note that if the repo is public, you can just use GitHub's mirroring feature.
 Keeping a Repo Mirror Up-to-Date
 --------------------------------
 
-### SVN -> Git
+*    SVN -> Git
 
         $ git svn rebase --authors-file=svn.authors
         $ git push origin master
 
-### Git -> SVN (FIXME)
+*    Git -> SVN (FIXME)
 
         $ git pull origin master
         $ git svn dcommit
 
-### Changes in both locations (FIXME)
+*    Changes in both locations (FIXME)
 
         $ git svn rebase --authors-file=svn.authors
         $ git pull origin master
