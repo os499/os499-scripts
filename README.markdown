@@ -109,18 +109,23 @@ Keeping a Repo Mirror Up-to-Date
     $ git svn rebase --authors-file=svn.authors
     $ git push origin master
 
-### Git -> SVN (possibly dangerous?)
+### Git -> SVN (FIXME)
 
     $ git pull origin master
     $ git svn dcommit
 
-### Changes in both locations (hopefully non-conflicting)
+### Changes in both locations (FIXME)
 
     $ git svn rebase --authors-file=svn.authors
     $ git pull origin master
     // ... resolve merge issues in Git
     $ git push origin master
     $ git svn dcommit
+
+### SVN URL changes (FIXME)
+
+* [GitSvnSwitch][]
+[GitSvnSwitch]: <https://git.wiki.kernel.org/index.php/GitSvnSwitch>
 
 ### Crontab
 
